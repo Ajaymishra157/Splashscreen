@@ -5,7 +5,6 @@ import kabirsingh from '../assets/images/4.png';
 import namsteengland from '../assets/images/5.png';
 import srk from '../assets/images/8.png';
 import kajol from '../assets/images/6.png';
-import colors from '../Component/Colors';
 
 // Get screen dimensions
 const { width, height } = Dimensions.get('window');
@@ -73,7 +72,7 @@ const DesignScreen = () => {
                   }}
                 />
               </ShimmerPlaceHolder>
-              <Text style={{ color: colors.primary, marginTop: 5 }}>Kabir Singh</Text>
+              <Text style={{ color: 'black', marginTop: 5 }}>Kabir Singh</Text>
             </View>
 
             {/* Movie 2: Namaste England */}
@@ -101,7 +100,7 @@ const DesignScreen = () => {
                   }}
                 />
               </ShimmerPlaceHolder>
-              <Text style={{ color: colors.textPrimary, marginTop: 5 }}>Namaste England</Text>
+              <Text style={{ color: 'black', marginTop: 5 }}>Namaste England</Text>
             </View>
           </View>
 
